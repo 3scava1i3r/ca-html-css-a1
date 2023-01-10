@@ -1,0 +1,469 @@
+* {
+    font-family: Ubuntu,sans-serif;
+    /* box-sizing: border-box; */
+    word-spacing: 0px;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#main-nav {
+    background-color: #FBDC00;
+    background-position: 0% 0%;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    word-spacing: 0px;
+    text-decoration: none;
+    padding: 8px 16px 16px 8px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    z-index: 100;
+    max-height: 40px;
+}
+
+#nav {
+    display: block;
+    text-decoration: none solid;
+    margin: 0 auto;
+    min-height: auto;
+    min-width: auto;
+    height: 49px;
+    width: 660px;
+    
+}
+
+#nav-ul {
+    display: flex;
+    margin: 14px 0px;
+    padding: 0 0 0 40px;
+    list-style-type: none;
+    list-style-position: outside;
+    
+}
+
+#nav-items {
+    display: list-item;
+    margin: 0 0 0 20px;
+    min-height: auto;
+    min-width: auto;
+    
+}
+
+#ul-2 {
+    height: 36px;
+    width: 196px;
+    padding: 0 0 0 40px;
+    margin: 14px 224px 14px 0;
+    min-height: auto;
+    min-width: auto;
+    display: flex;
+    list-style-type: none;
+    list-style-position: outside;
+    text-decoration: none solid;
+    
+}
+
+#list2-items {
+    display: list-item;
+    min-width: auto;
+    min-height: auto;
+    height: 16px;
+    width: 56px;
+    text-align: center;
+    background-position: 0% 0%;
+}
+
+#sign-up {
+    padding:0px 16px;
+    display: flex;
+    border: 1px solid #EE3425;
+    color: #ffffff;
+    height: 32px;
+    min-width: 72px;
+    background-color: #EE3425;
+    line-height: 15px;
+    border-radius: 7px;
+    font-weight: 700;
+    width: 90px;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+ /* ---------- nav ends */
+
+#header {
+    position: relative;
+    background: url("https://cdn.cogoport.io/cms-prod/vault/original/home-banner-background-1.webp");
+    background-position: 50%;
+    background-size: 100%;
+    background-color: #FBDC00;
+    height:500px;
+    width: 100%;
+    margin-top: -57px;
+    padding-top: 57px;
+    background-repeat: no-repeat;
+    /* margin-top: 0px; */
+    
+}
+#header-div {
+    height: 470px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 16px 16px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#header-div-div{
+    /* min-height: auto;
+    min-width: auto; */
+    margin-top: 160px;
+    height: 172px;
+    width: 100%;
+    
+    
+}
+
+
+#header-div-img {
+    
+    margin-bottom: -56px;
+    margin-top: 40px;
+    z-index: 20;
+}
+
+#curve-container {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    border-top-left-radius:18px ;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 100% 150%;
+    border-bottom-right-radius: 100% 150%;
+    z-index: 10;
+}
+
+#left-curve {
+    height: 100px;
+    background-color: #FFFEF2;
+    position: relative;
+    display: inline-block;
+    top: -80px;
+    width: 50%;
+    float: left;
+}
+
+#right-curve {
+    height: 100px;
+    background-color:#FFFEF2;
+    position: relative;
+    display: inline-block;
+    top: -80px;
+    width: 50%;
+}
+
+/* curve ends here */
+
+#mid {
+    height: 1300px;
+    background-color: #fffef2;
+    
+}
+
+#mid-sub {
+    width: 1200px;
+    height: 325px;
+    margin: 0 auto;
+    padding: 16px 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+#block-prod {
+    height: 180px;
+    width: 1300px;
+    margin: 14px 0;
+    display: flex;
+    flex-direction: row; 
+}
+
+
+
+#card {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFfff;
+    border-radius: 10px;
+    height: 160px;
+    width: 184px;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    box-shadow: rgba(169, 188, 218, 0.65) 0 1px 6px 0;
+}
+
+#card:hover {
+    border: 1px solid #EE3425;
+}
+
+/* below mid */
+
+#below-mid {
+    width: 100%;
+    height: 120px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+
+/*  
+#mover img{
+    margin-left: 100px;
+    margin-right: 100px;
+    display:inline-block;
+    vertical-align:middle;
+    width:100px;
+}
+
+#marq {
+    background-color: #EE3425;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+  
+}
+
+#mover {
+  height: 100px;
+  width: 10000px;
+  position: absolute;
+  overflow-x:hidden;
+  top: 0;
+  animation: moveSlideshow 3s linear infinite;
+}
+
+@keyframes moveSlideshow {
+    100% { 
+      transform: translateX(-520px);  
+    }
+  } */
+
+
+#marq {
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#mover {
+    height: 100px;
+    width: 10000px;
+    
+    overflow-x: hidden;
+    top: 0;
+    animation: moveSlideshow 180s linear infinite;
+}
+
+#mover img {
+    margin-left: 120px;
+    margin-right: 120px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@keyframes moveSlideshow {
+    100% { 
+      transform: translateX(-10020px);  
+    }
+  }
+
+
+#banner {
+    
+    background-color: #FBDC00;
+    height: 130px;
+}
+
+/* works section */
+
+
+#works {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+}
+
+#works-mid {
+    margin-top: 100px;
+    height: 605px;
+    width: 1165px;
+    display: flex;
+    flex-direction: row;
+}
+
+#works-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFfff;
+    border-radius: 10px;
+    height: 257px;
+    width: 300px;
+    position: relative;
+    box-shadow: rgba(169, 188, 218, 0.65) 0 1px 6px 0;
+    
+}
+
+#works-card p {
+    color: #EE3425;
+}
+
+#works-card span {
+    height: 30px;
+    width: 260px;
+    
+}
+
+#works-card2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFfff;
+    border-radius: 10px;
+    height: 217px;
+    width: 300px;
+    position: relative;
+    box-shadow: rgba(169, 188, 218, 0.65) 0 1px 6px 0;
+    
+}
+
+#works-card2 p {
+    color: #EE3425;
+}
+
+#works-card2 span {
+    height: 30px;
+    width: 260px;
+    
+}
+
+#img-work {
+    z-index: 0;
+}
+
+
+
+/* --- */
+
+#banner-2 {
+    position: relative;
+    background-color: #EE3425;
+    height: 150px;
+}
+
+
+#mid-sub1 {
+    width: 1200px;
+    height: inherit;
+    margin: 0 auto;
+    padding: 16px 16px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    height: 392px;
+}
+
+/* --- curve part 2 */
+
+/* #left-curve2 {
+    height: 190px;
+    background-color: #FBDC00;
+    position: relative;
+    display: inline-block;
+    top: -80px;
+    width: 50%;
+    float: left;
+}
+
+#right-curve2 {
+    height: 190px;
+    background-color:#FBDC00;
+    position: relative;
+    display: inline-block;
+    top: -80px;
+    width: 50%;
+} */
+
+#curve-container2 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    border-top-left-radius:18px ;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 100% 150%;
+    border-bottom-right-radius: 100% 150%;
+    z-index: 100;
+    margin-bottom: -100px;
+}
+
+
+
+#newsletter {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+
+
+}
+
+
+#link span:hover {
+    text-decoration: underline;
+}
+
+
+/* vid */
+
+#vid{
+    /* background-image: url(""); */
+    height: 450px;
+}
+
+
+
+/* #end1 div a span:hover {
+    font-weight: 700;
+    color: #EE3425;
+    text-decoration: underline;
+    
+} */
+
+#end-span:hover {
+    font-weight: 400;
+    color: #EE3425;
+    
+}
+
+#end {
+    display: flex; flex-direction: column; font-size: 14px;
+}
+
+#final-a:hover {
+    text-decoration: underline;
+    
+}
