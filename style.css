@@ -81,7 +81,7 @@ body {
     background-position: 0% 0%;
 }
 
-#sign-up {
+/* #sign-up {
     padding:0px 16px;
     display: flex;
     border: 1px solid #EE3425;
@@ -95,6 +95,20 @@ body {
     width: 90px;
     padding-top: auto;
     padding-bottom: auto;
+} */
+
+#signup {
+    border: 1px solid #EE3425;
+    color: #ffffff;
+    height: 32px;
+    margin-top: -10px;
+    min-width: 72px;
+    line-height: 15px;
+    border-radius: 7px;
+    font-weight: 700;
+    width: 90px;
+
+    background-color: #EE3425;
 }
 
  /* ---------- nav ends */
